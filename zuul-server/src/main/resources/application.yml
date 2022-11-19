@@ -1,0 +1,7 @@
+server:
+  port: '8000'
+spring:
+  application:
+    name: zuul-server(gateway)
+  main:
+    banner-mode: 'off'

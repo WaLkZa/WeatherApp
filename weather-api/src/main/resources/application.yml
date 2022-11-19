@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: weather-api
+  jpa:
+    open-in-view: 'false'
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+        format_sql: 'TRUE'
+    hibernate:
+      ddl-auto: update
+    show-sql: 'true'
+  datasource:
+    url: jdbc:mysql://localhost:3306/weather_app?createDatabaseIfNotExist=true
+    driverClassName: com.mysql.cj.jdbc.Driver
+    username: root
+    password: admin
+  main:
+    banner-mode: 'off'
+server:
+  port: '8001'
+
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://localhost:8761/eureka
