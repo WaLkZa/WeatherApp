@@ -13,3 +13,10 @@ Start two instances of the weather spring boot app on different ports and regist
 
 >At the end you should have 4 running applications - eureka, zuul and 2 instances of weather spring boot app.
 The incoming requests should go through zuul and be proxied to one of the two spring boot weather apps. Add logging to verify that it works.
+
+## Helpful video tutorials:
+- [What are Microservices | Microservices Architecture | Realtime project introduction](https://www.youtube.com/watch?v=U8zIlnRwyMM)
+- [Introducing Eureka Server and Eureka Client with example - Spring Boot Microservices](https://www.youtube.com/watch?v=o7a77vKUKpE)
+- [API GATEWAY with Zuul | How to create zuul API Gateway in microservices](https://www.youtube.com/watch?v=hJW-a0FpZQc)
+- [Load Balance Requests](https://youtu.be/-gLLeoS1m6s?t=1495)
+- [Optimistic Locking Example with MySQL and Java Multithreading](https://www.youtube.com/watch?v=T4l4OKhpUhM)
